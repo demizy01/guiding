@@ -1,0 +1,37 @@
+
+
+
+body{
+    background-color: aqua;
+}
+.nave h1{
+    color: azure;
+}
+.nave{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    background-color: black;
+}
+.demola .guiding{
+    display: flex;
+}
+.demola .guiding li{
+    padding: 10px;
+    list-style: none;
+
+}
+.demola .guiding li a{
+    text-decoration: none;
+}
+
+.new{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.413)), url(../puppy\ imagine.png imagine.png)
+    
+}

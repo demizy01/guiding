@@ -1,0 +1,177 @@
+.courseContainer{
+    background-color: rgb(232, 229, 229);
+    width: 100%;
+    height: 220vh;
+    /* padding: 100px; */
+   }
+   
+   .courseContainer p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+    color: blue;
+    
+   }
+   .courseContainer h2{
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 44px;
+    color: rgb(11, 11, 26);
+   }
+   .courseContainer .course{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+   }
+   
+   .courseContainer .course .courseOne{
+    width: 390px;
+    
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+    box-shadow: 1px 1px 1px 0.1px rgb(158, 157, 157);
+   }
+   .courseContainer .course .courseOne .myhidden{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   
+    
+   
+   }
+   .courseContainer .course .courseOne .myhidden img{
+    width: 100%;
+    height:100%;
+    transition: all 1.1s;
+    object-fit: cover;
+    
+   }
+   .courseContainer .course .courseOne .inter{
+    width: 100%;
+    
+    position: absolute;
+    padding: 0px 20px;
+    
+    align-items: center;
+    top: 45px;
+   }
+   .courseContainer .course .courseOne .inter .myp1{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    border-radius: 10px;
+   
+    
+    
+    
+   }
+   .courseContainer .course .courseOne .inter .myp2{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left:160px ;
+    padding: 10px;
+    border-radius: 50%;
+   }
+   .des p{
+    right: 50px;
+    bottom: 100px;
+    left: 46px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.courseContainer .course .courseOne .student h4{
+    margin-left: 20px;
+   font-size: 17px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.yellowstar{
+   margin-left: 12px;
+   color: rgb(242, 255, 0);
+   font-size: 30px;
+   margin-bottom: 50px;
+
+   
+   
+}
+.Review span{
+    position: absolute;
+    top: 390px;
+    left: 170px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 13px;
+}
+.courseContainer .course .courseOne .line  {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.157);
+    margin-left: 30px;
+    top: 400px;
+    height: 0.5px;
+    position: absolute;
+    padding-bottom: 0.5px;
+}
+.courseContainer .course .courseOne .dollar {
+    bottom: 30px;
+    position: absolute;
+    color: blue;
+    left: 30px; 
+    font-size: 20px;
+}
+.courseContainer .course .courseOne .dollar39{
+    position: absolute;
+    bottom: 33px;left: 90px;
+    color: grey;
+   
+    font-size: 15px;
+}
+.courseContainer .course .courseOne .people{
+    position: absolute;
+    bottom: 28px;
+    left: 190px;
+    display: flex;
+    color: grey;
+    font-size: 18px;
+    
+}
+.courseContainer .viewall {
+    background-color: rgba(0, 0, 255, 0.664);
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: 50px;
+    font-size: 25px;
+    top: 1370px;
+    position: absolute;
+    /* padding-right: 5px; */
+    right:600px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    padding: 10px; 
+    justify-content: center;
+   
+}
+.courseContainer .viewall nav{
+    margin-right: 25px;  
+}
+.viewall nav i{
+     margin-right: 90px;
+}
+
+
+
+
+
+   .courseContainer .course .courseOne .myhidden img:hover{
+    transform: scale(1.1);
+   }

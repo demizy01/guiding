@@ -1,0 +1,27 @@
+
+
+
+body{
+    background-color: aqua;
+}
+.nave h1{
+    color: azure;
+}
+.nave{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    background-color: black;
+}
+.demola .guiding{
+    display: flex;
+}
+.demola .guiding li{
+    padding: 10px;
+    list-style: none;
+
+}
+.demola .guiding li a{
+    text-decoration: none;
+}
